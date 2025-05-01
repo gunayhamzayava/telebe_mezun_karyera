@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cont_nav {
+  background-color: #213448;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  font-weight: 600;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navLinks li a:hover {
+  color: #547792;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: #547792;
+}

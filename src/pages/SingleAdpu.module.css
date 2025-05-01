@@ -1,0 +1,65 @@
+.singleAdpu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.5s ease-in-out;
+    gap: 2rem;
+}
+
+.singleAdpu img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 6px solid #e0e0e0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.singleAdpu p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;
+    max-width: 800px;
+    padding: 0 0.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .singleAdpu {
+        padding: 2rem 1rem;
+    }
+
+    .singleAdpu p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .singleAdpu img {
+        max-width: 100%;
+    }
+
+    .singleAdpu p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
