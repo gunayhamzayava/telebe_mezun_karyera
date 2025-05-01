@@ -15,8 +15,8 @@ const Home = () => {
               <img src="/adpu.jpg" alt="ADPU" />
             </div>
             <p>
-              ADPU-nun Quba filialı 2000-ci ildə yaradılmış və minlərlə kadr hazırlamışdır.
-              Universitet geniş tədris sahəsinə malikdir.
+              ADPU-nun Quba filialı 2000-ci ildə yaradılmış və minlərlə kadr
+              hazırlamışdır. Universitet geniş tədris sahəsinə malikdir.
               <br />
               <Link to="/adpu" className={styles.readMore}>
                 Ətraflı oxu
@@ -30,8 +30,8 @@ const Home = () => {
               <img src="/yusifAliyev.jpeg" alt="Yusif Alıyev" />
             </div>
             <p>
-              Yusif Alıyev – fizika üzrə elmlər namizədi, 2009-cu ildən fəal elmi-pedaqoji
-              fəaliyyət göstərir.
+              Yusif Alıyev – fizika üzrə elmlər namizədi, 2009-cu ildən fəal
+              elmi-pedaqoji fəaliyyət göstərir.
               <br />
               <Link to="/rehberlik" className={styles.readMore}>
                 Ətraflı oxu
@@ -55,6 +55,22 @@ const Home = () => {
             <li>"Coğrafiya müəllimliyi" – 4 il</li>
             <li>"Riyaziyyat müəllimliyi" – 4 il</li>
           </ul>
+        </section>
+
+        <section className={styles.mezun}>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSduHdfZ8lFLiRhs-Ot3HJbybqLdXxGkRCN76zlpWL9UyGG1vA/viewform">
+            Məzunların məmnunluq sorğusu
+          </a>
+          <p>
+            ADPU-nun Quba filialının Tələbə, məzunlarla iş və karyera şöbəsi
+            məzunlarla əlaqələrin gücləndirilməsi məqsədilə mütəmadi olaraq
+            məmnunluq sorğuları həyata keçirir. Bu sorğular vasitəsilə
+            məzunların təhsil müddətinə, ixtisaslarının əmək bazarına
+            uyğunluğuna və göstərilən karyera xidmətlərinə dair fikirləri
+            öyrənilir. Əldə olunan nəticələr şöbənin fəaliyyətinin
+            təkmilləşdirilməsi və tələbə-məzun ehtiyaclarına uyğun
+            strategiyaların hazırlanması üçün əsas rol oynayır.
+          </p>
         </section>
       </main>
     </div>

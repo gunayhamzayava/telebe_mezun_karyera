@@ -140,3 +140,40 @@
         transform: translateY(0);
     }
 }
+
+.mezun {
+    background-color: #f5f8fa;
+    padding: 30px 25px;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.mezun:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.mezun a {
+    display: inline-block;
+    background-color: #213448;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.mezun a:hover {
+    background-color: #365a75;
+}
+
+.mezun p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
