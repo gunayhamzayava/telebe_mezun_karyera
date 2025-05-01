@@ -64,3 +64,41 @@
   text-decoration: underline;
   color: #547792;
 }
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .logoText{
+    display: none;
+  }
+  .navLinks {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #213448;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    gap: 20px;
+    padding: 20px 0;
+    z-index: 99;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    position: relative;
+    padding: 10px 20px;
+  }
+}
