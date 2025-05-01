@@ -29,22 +29,22 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <h5 className={styles.footerTitle}>Bizi Sosial Şəbəkələrdə izləyin</h5>
         <div className={styles.socialIcons}>
-          <a href="...">
+          <a href="https://www.facebook.com/people/Az%C9%99rbaycan-D%C3%B6vl%C9%99t-Pedaqoji-Universitetinin-Quba-filial%C4%B1/100057727866858/?mibextid=ZbWKwL">
             <img src="/facebook_icon.svg" />
           </a>
-          <a href="...">
+          <a href="https://www.instagram.com/adpu.quba.edu.az/?igsh=MWVhaTdzazdwMnVqdQ%3D%3D#">
             <img src="/insta.svg" />
           </a>
-          <a href="...">
+          <a href="https://www.youtube.com/@adpununqubafilial">
             <img src="/youtube.svg" />
           </a>
-          <a href="...">
+          <a href="https://www.whatsapp.com/channel/0029VaD2mwSIHphFcCzPJ40I">
             <img src="/wp.svg" />
           </a>
-          <a href="...">
+          <a href="https://t.me/karyeraquba_bot">
             <img src="/telegram.svg" />
           </a>
-          <a href="...">
+          <a href="https://adpuquba.edu.az/">
             <img src="/web.svg" />
           </a>
         </div>
